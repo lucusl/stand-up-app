@@ -1,0 +1,51 @@
+section {
+	background-color: #252525;
+	height: 200vh;
+}
+
+header {
+	height: 30%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.issue-container {
+	height: 100vh;
+	width: 100vw;
+	margin:0;
+
+}
+.issue-holder{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around
+}
+
+
+.issue{
+	background-color: #363636;
+	width: 25%;
+	margin:15px;
+	box-shadow: 10px;
+}
+
+.issue p {
+	font-size: 0.8em;
+	font-weight: 100;
+}
+
+.client-name {
+	background-color: green;
+	top: -10px;
+}
+
+.issue-status {
+	border: solid 0.5px green;
+	width: 25%;
+	padding:5px;
+	font-size:0.5em;
+	border-radius: 10px;
+}

@@ -1,0 +1,25 @@
+#nav  {
+	background-color: #1c1c1c;
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+	font-weight: 300;
+	font-size: 0.9em;
+	margin-bottom: 0;
+
+}
+
+#nav li{
+	list-style: none;
+	padding: 10px;
+	border-bottom: solid  #1c1c1c;
+
+}
+
+#nav li:hover{
+	border-bottom: solid red;
+}
+
+#nav a.active-nav li {
+	border-bottom: solid red;
+}

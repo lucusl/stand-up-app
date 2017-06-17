@@ -1,0 +1,23 @@
+.container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100vh;
+	justify-content: center;
+	margin:0;
+}
+
+.tc-logo{
+	width: 70%
+}
+
+footer p {
+	margin: -0px;
+	font-size:0.7em;
+}
+
+footer{
+
+	margin-top: 100px;	 
+
+}
